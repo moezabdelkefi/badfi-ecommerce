@@ -10,17 +10,20 @@ const About = () => {
   }, [location]);
   return (
     <div className="max-w-container mx-auto px-4">
-      <Breadcrumbs title="About" prevLocation={prevLocation} />
+      <Breadcrumbs title="معلومات عنا" prevLocation={prevLocation} />
       <div className="pb-10">
         <h1 className="max-w-[600px] text-base text-lightText mb-2">
-          <span className="text-primeColor font-semibold text-lg">Orebi</span>{" "}
-          is one of the world's leading ecommerce brands and is internationally
-          recognized for celebrating the essence of classic Worldwide cool
-          looking style.
+          <span className="text-primeColor font-semibold text-lg">Gusto</span>{" "}
+          عالم من الأناقة والإلهام والابتكار. يجسد جوستو شغفًا عميقًا بتقديم
+          أرقى صيحات الموضة والأزياء التي تعكس تفرّد كل شخص وروحه العصرية. من
+          التفاصيل المتقنة إلى الخامات الفاخرة، يتيح لك جوستو اكتشاف طيف واسع من
+          التصاميم التي تجمع بين الكلاسيكية والأصالة مع لمسات عصرية حديثة. جوستو
+          هو أكثر من مجرد أزياء؛ إنه تجربة تعيد تعريف الرقي وتدعم الثقة، ليمنح
+          كل من يرتديه حضورًا لافتًا وأسلوبًا يعكس ذوقًا متفرّدًا.
         </h1>
         <Link to="/shop">
           <button className="w-52 h-10 bg-primeColor text-white hover:bg-black duration-300">
-            Continue Shopping
+          متابعة التسوق
           </button>
         </Link>
       </div>
